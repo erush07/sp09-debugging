@@ -21,9 +21,11 @@ INSTRUCTIONS:
    existing list is passed in.
 '''
 
-def add_item(item, inventory=[]):
-    inventory.append(item)
-    return inventory
+def add_item(item, inventory = None):
+   if inventory == None:
+      inventory=[]
+   inventory.append(item)
+   return inventory
 
 print(add_item("stapler"))
 print(add_item("pen"))

@@ -23,6 +23,9 @@ INSTRUCTIONS:
 '''
 
 def average_response_time(total_minutes, tickets_closed):
-    return total_minutes / tickets_closed
+   if tickets_closed == 0:
+      return 0
+   else:
+      return total_minutes / tickets_closed
 
 print("Avg response:", average_response_time(0, 0))

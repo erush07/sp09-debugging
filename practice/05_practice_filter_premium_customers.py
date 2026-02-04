@@ -21,5 +21,5 @@ INSTRUCTIONS:
 
 scores = [95, 87, 79, 80, 60]
 for s in scores:
-    if s >= 79:
+    if s >= 80:
         print("Premium:", s)

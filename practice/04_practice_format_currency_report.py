@@ -21,4 +21,4 @@ INSTRUCTIONS:
 '''
 
 revenue = 5000
-print("Revenue: $" + revenue)
+print("Revenue: $" + str(revenue))

@@ -21,8 +21,8 @@ INSTRUCTIONS:
    Total with tax: 10.8
 '''
 
-def calculate_sales_total(price tax_rate):
-    tota = price + (price * tax_raet)
+def calculate_sales_total(price, tax_rate):
+    total = price + (price * tax_rate)
     return total
 
 print("Total with tax:", calculate_sales_total(10.0, 0.08))
